@@ -1,0 +1,20 @@
+# Ignore Terraform directory
+.terraform/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform plugin lock files
+.terraform.lock.hcl
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore any sensitive or environment-specific variable files
+*.tfvars
+
+# Ignore any other generated or temporary files
