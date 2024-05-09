@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+# root/environment/stagingvariables.tf
 variable "ami" {
+=======
+# root/modules/ec2_instance/variables.tf
+variable "ami_id" {
+>>>>>>> 76e3be2a2854cfe4f193d6706b1c7c6eacac1ce6
   description = "Ami ID to deploy"
   type = string
   default = "ami-0f58b397bc5c1f2e8"
@@ -22,6 +28,7 @@ variable "server_name" {
     default = "dg-israel-ibrahim-terraform-test"
 }
 
+<<<<<<< HEAD
 variable "iam_instance_profile" {
   type = string
   description = "The ARN of the IAM instance profile to associate with the instance."
