@@ -51,6 +51,7 @@ variable "key_name" {
   description = "Key pair to be associated with the instance"
   type = string
   default = "israel-ibrahim2"
+}
 
 variable "aws_region" {
   description = "Provider region"
